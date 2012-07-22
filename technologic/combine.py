@@ -17,3 +17,5 @@ def synthesizer(genre, data):
         shutil.copyfileobj(open(filename, 'rb'), destination)
 
     destination.close()
+
+    return "%s Techno Song Created\n\nPath to file: products/%s_%s.mp3" % (genre.title(), genre, entry_time )

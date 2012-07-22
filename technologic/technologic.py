@@ -15,11 +15,11 @@ def logic(genre = "fast", duration = 90):
 
     data = genres(genre, float(duration))
 
-    print "Combining beats"
+    print "Combining beats\n"
 
     synthesize = synthesizer(genre, data)
 
-    return synthesize
+    print synthesize
 
 
 logic("slow")

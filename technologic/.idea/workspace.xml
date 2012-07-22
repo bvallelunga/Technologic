@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba39b6ad-43eb-45f5-957b-d03fd3eb72b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/combine.py" />
+    <list default="true" id="ba39b6ad-43eb-45f5-957b-d03fd3eb72b5" name="Default" comment="Update">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/slow.py" afterPath="$PROJECT_DIR$/generators/slow.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/combine.py" afterPath="$PROJECT_DIR$/combine.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technologic.py" afterPath="$PROJECT_DIR$/technologic.py" />
     </list>
     <ignored path="technologic.iws" />
@@ -30,7 +29,7 @@
       <file leaf-file-name="technologic.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/technologic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="13" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
+            <state line="21" column="20" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#351#376#0" expanded="true" />
               </folding>
@@ -52,7 +51,7 @@
       <file leaf-file-name="combine.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/combine.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.09825327">
+            <state line="20" column="42" selection-start="534" selection-end="534" vertical-scroll-proportion="0.65502185">
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -320,7 +319,11 @@
       <created>1342934386904</created>
       <updated>1342934386904</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update">
+      <created>1342939971921</created>
+      <updated>1342939971922</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -451,15 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/technologic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="13" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#351#376#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/generators/slow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="72" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
@@ -469,9 +463,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/technologic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="20" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#351#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/combine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.09825327">
+        <state line="20" column="42" selection-start="534" selection-end="534" vertical-scroll-proportion="0.65502185">
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
