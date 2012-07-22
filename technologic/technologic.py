@@ -7,19 +7,19 @@ There are two sets of equations:
 '''
 
 from genres import genres
+from combine import synthesizer
 
-def logic(genre, duration = 60):
+def logic(genre = "fast", duration = 90):
+
+    print "Creating song characteristics\n"
 
     data = genres(genre, float(duration))
 
-    for loop in data:
+    print "Combining beats"
 
-        print "Time: %.2f - Beat: %i" % (loop['time'], loop['beat'])
+    synthesize = synthesizer(genre, data)
 
-
-
-
+    return synthesize
 
 
-
-logic('slow')
+logic("slow")

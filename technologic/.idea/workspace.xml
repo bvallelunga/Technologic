@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba39b6ad-43eb-45f5-957b-d03fd3eb72b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/drop_bass.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/extreme.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/fast.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/hardcore.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/soft.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/combine.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/slow.py" afterPath="$PROJECT_DIR$/generators/slow.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/genres.py" afterPath="$PROJECT_DIR$/genres.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technologic.py" afterPath="$PROJECT_DIR$/technologic.py" />
     </list>
     <ignored path="technologic.iws" />
@@ -34,20 +27,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="technologic.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="technologic.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/technologic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="552" selection-end="552" vertical-scroll-proportion="0.720524">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="genres.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/genres.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="36" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="24" column="13" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#351#376#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,8 +41,21 @@
       <file leaf-file-name="slow.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generators/slow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="49" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="25" column="72" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="combine.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/combine.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.09825327">
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,6 +87,7 @@
         <option value="$PROJECT_DIR$/genres.py" />
         <option value="$PROJECT_DIR$/generators/slow.py" />
         <option value="$PROJECT_DIR$/technologic.py" />
+        <option value="$PROJECT_DIR$/combine.py" />
       </list>
     </option>
   </component>
@@ -139,20 +139,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="technologic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="technologic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generators" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -200,8 +186,8 @@
       <recent name="$PROJECT_DIR$/generators" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/generator" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/generator" />
       <recent name="$PROJECT_DIR$/math" />
       <recent name="$PROJECT_DIR$/support" />
     </key>
@@ -278,8 +264,27 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="combine" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="technologic" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/combine.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="MULTIPROCESS" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.technologic" />
+      <item index="1" class="java.lang.String" itemvalue="Python.combine" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -311,13 +316,18 @@
       <created>1342866461094</created>
       <updated>1342866461094</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update">
+      <created>1342934386904</created>
+      <updated>1342934386904</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -333,7 +343,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -437,22 +446,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/genres.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="36" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generators/slow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="49" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
+        <state line="11" column="27" selection-start="360" selection-end="360" vertical-scroll-proportion="0.360262">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/technologic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="552" selection-end="552" vertical-scroll-proportion="0.720524">
-          <folding />
+        <state line="24" column="13" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#351#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generators/slow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="72" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/combine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.09825327">
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
