@@ -5,7 +5,18 @@ There are two sets of equations:
     2) x is time and y is the duration of the sound in set 1 (may have 1+ equations > piecewise function)
     BOTH sets will stop at the duration. Duration in seconds
 '''
-def logic(type, duration):
-    print duration
 
-logic(5)
+from genres import genres
+
+def logic(genre, duration = 60):
+
+    math = genres(genre, float(duration))
+
+    print math
+
+
+
+
+
+
+logic('slow')
