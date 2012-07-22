@@ -7,11 +7,11 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/extreme.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/fast.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/hardcore.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/slow.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/soft.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/genres.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/slow.py" afterPath="$PROJECT_DIR$/generators/slow.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/genres.py" afterPath="$PROJECT_DIR$/genres.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technologic.py" afterPath="$PROJECT_DIR$/technologic.py" />
     </list>
     <ignored path="technologic.iws" />
@@ -34,10 +34,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="technologic.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="technologic.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/technologic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="12" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
+            <state line="22" column="0" selection-start="552" selection-end="552" vertical-scroll-proportion="0.720524">
               <folding />
             </state>
           </provider>
@@ -46,16 +46,16 @@
       <file leaf-file-name="genres.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/genres.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
+            <state line="14" column="36" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slow.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="slow.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generators/slow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.37974682">
+            <state line="20" column="49" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -80,12 +80,12 @@
         <option value="$PROJECT_DIR$/genre.py" />
         <option value="$PROJECT_DIR$/slow.py" />
         <option value="$PROJECT_DIR$/math/slow.py" />
-        <option value="$PROJECT_DIR$/genres.py" />
         <option value="$PROJECT_DIR$/generators/soft.py" />
         <option value="$PROJECT_DIR$/generators/hardcore.py" />
         <option value="$PROJECT_DIR$/generators/fast.py" />
         <option value="$PROJECT_DIR$/generators/extreme.py" />
         <option value="$PROJECT_DIR$/generators/drop_bass.py" />
+        <option value="$PROJECT_DIR$/genres.py" />
         <option value="$PROJECT_DIR$/generators/slow.py" />
         <option value="$PROJECT_DIR$/technologic.py" />
       </list>
@@ -323,11 +323,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24318507" sideWeight="0.52684146" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24318507" sideWeight="0.6054931" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47315854" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39450687" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -430,28 +430,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/generators/soft.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="15" selection-start="185" selection-end="185" vertical-scroll-proportion="0.4556962">
+        <state line="12" column="15" selection-start="185" selection-end="185" vertical-scroll-proportion="0.33027524">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/genres.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technologic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="12" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
+        <state line="14" column="36" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/generators/slow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.37974682">
+        <state line="20" column="49" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technologic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="552" selection-end="552" vertical-scroll-proportion="0.720524">
           <folding />
         </state>
       </provider>

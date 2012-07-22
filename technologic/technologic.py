@@ -10,9 +10,12 @@ from genres import genres
 
 def logic(genre, duration = 60):
 
-    math = genres(genre, float(duration))
+    data = genres(genre, float(duration))
 
-    print math
+    for loop in data:
+
+        print "Time: %.2f - Beat: %i" % (loop['time'], loop['beat'])
+
 
 
 

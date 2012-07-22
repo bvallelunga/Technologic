@@ -15,5 +15,4 @@ def genres(genre, duration):
              "drop bass" : drop_bass
     }
 
-
     return types[genre](duration)
