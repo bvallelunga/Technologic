@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba39b6ad-43eb-45f5-957b-d03fd3eb72b5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/combine.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/synthesize.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/drop_bass.py" afterPath="$PROJECT_DIR$/generators/drop_bass.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/extreme.py" afterPath="$PROJECT_DIR$/generators/extreme.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/fast.py" afterPath="$PROJECT_DIR$/generators/fast.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/hardcore.py" afterPath="$PROJECT_DIR$/generators/hardcore.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/slow.py" afterPath="$PROJECT_DIR$/generators/slow.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/soft.py" afterPath="$PROJECT_DIR$/generators/soft.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technologic.py" afterPath="$PROJECT_DIR$/technologic.py" />
     </list>
     <ignored path="technologic.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,7 +39,7 @@
       <file leaf-file-name="synthesize.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/synthesize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="175" column="31" selection-start="5850" selection-end="5850" vertical-scroll-proportion="0.8062016">
+            <state line="175" column="31" selection-start="5850" selection-end="5850" vertical-scroll-proportion="3.3914728">
               <folding />
             </state>
           </provider>
@@ -371,12 +362,16 @@
       <created>1342940577003</created>
       <updated>1342940577003</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update">
+      <created>1343018885110</created>
+      <updated>1343018885110</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -389,7 +384,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24318507" sideWeight="0.23220974" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24318507" sideWeight="0.23220974" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.76779026" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -529,7 +524,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/synthesize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="31" selection-start="5850" selection-end="5850" vertical-scroll-proportion="0.8062016">
+        <state line="175" column="31" selection-start="5850" selection-end="5850" vertical-scroll-proportion="3.3914728">
           <folding />
         </state>
       </provider>
