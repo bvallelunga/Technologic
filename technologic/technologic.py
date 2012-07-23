@@ -7,7 +7,10 @@ There are two sets of equations:
 '''
 
 from genres import genres
-from combine import synthesizer
+from synthesize import synthesizer
+import os
+
+os.system('clear')
 
 def logic(genre = "fast", duration = 90):
 
@@ -15,11 +18,9 @@ def logic(genre = "fast", duration = 90):
 
     data = genres(genre, float(duration))
 
-    print "Combining beats\n"
-
     synthesize = synthesizer(genre, data)
 
-    print synthesize
+    return synthesize
 
 
-logic("slow")
+logic("slow", 30)

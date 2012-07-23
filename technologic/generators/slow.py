@@ -3,7 +3,7 @@ import math
 
 def slow(duration):
 
-    time = 0.0000
+    time = 0.0
     data = []
 
     def random(max = 10, min = 0):
@@ -26,6 +26,6 @@ def slow(duration):
             data.append({'time': time, 'beat' : int(math.pow(time, 1.1)) })
 
 
-        time = time + .5
+        time = time + 1
 
     return data
