@@ -1,5 +1,4 @@
 from random import randint
-import math
 
 def slow(duration):
 
@@ -13,19 +12,21 @@ def slow(duration):
     while time <= duration:
 
         if time < 1:
-            data.append({'time': time, 'beat' : int(time + random(50)) })
+            data.append({'time': time, 'duration': .5, 'beat' : int(time + random(50)) })
+            time = time + .5
 
         if 1 <= time < 2:
-            data.append({'time': time, 'beat' : int((time + random(100, 50))/2) })
+            data.append({'time': time, 'duration': .5, 'beat' : int((time + random(100, 50))/2) })
+            time = time + .5
 
         if 2 <= time < 8:
-            data.append({'time': time, 'beat' : int(20 - time) })
+            data.append({'time': time, 'duration': .5, 'beat' : int(20 - time) })
+            time = time + .5
 
 
         if 8 <= time:
-            data.append({'time': time, 'beat' : int(math.pow(time, 1.1)) })
+            data.append({'time': time, 'duration': 1, 'beat' : int(pow(time, 1.2))})
+            time = time + 1
 
-
-        time = time + 1
 
     return data

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba39b6ad-43eb-45f5-957b-d03fd3eb72b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/synthesize.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/slow.py" afterPath="$PROJECT_DIR$/generators/slow.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/synthesize.py" afterPath="$PROJECT_DIR$/synthesize.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technologic.py" afterPath="$PROJECT_DIR$/technologic.py" />
     </list>
     <ignored path="technologic.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +30,7 @@
       <file leaf-file-name="technologic.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/technologic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="17" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
+            <state line="18" column="13" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#351#376#0" expanded="true" />
               </folding>
@@ -39,8 +41,10 @@
       <file leaf-file-name="synthesize.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/synthesize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="175" column="31" selection-start="5850" selection-end="5850" vertical-scroll-proportion="3.3914728">
-              <folding />
+            <state line="35" column="83" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.44573644">
+              <folding>
+                <element signature="e#580#595#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,10 +52,8 @@
       <file leaf-file-name="slow.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generators/slow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="15" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state line="27" column="52" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/genre.py" />
         <option value="$PROJECT_DIR$/slow.py" />
         <option value="$PROJECT_DIR$/math/slow.py" />
         <option value="$PROJECT_DIR$/genres.py" />
@@ -82,6 +83,7 @@
         <option value="$PROJECT_DIR$/pysynth.py" />
         <option value="$PROJECT_DIR$/combine.py" />
         <option value="$USER_HOME$/Desktop/pysynth.py" />
+        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/generators/slow.py" />
         <option value="$PROJECT_DIR$/technologic.py" />
         <option value="$PROJECT_DIR$/synthesize.py" />
@@ -261,7 +263,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PYTHONUNBUFFERED" value="0" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -275,46 +277,8 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="combine" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <module name="technologic" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/combine.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="MULTIPROCESS" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="synthesize" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <module name="technologic" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/synthesize.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="MULTIPROCESS" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <list size="3">
+    <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Python.technologic" />
-      <item index="1" class="java.lang.String" itemvalue="Python.combine" />
-      <item index="2" class="java.lang.String" itemvalue="Python.synthesize" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -366,12 +330,16 @@
       <created>1343018885110</created>
       <updated>1343018885110</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update">
+      <created>1343018961601</created>
+      <updated>1343018961601</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -384,8 +352,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24318507" sideWeight="0.23220974" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.76779026" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24318507" sideWeight="0.70162296" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29837704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -504,18 +472,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/pysynth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="199" column="12" selection-start="6820" selection-end="6834" vertical-scroll-proportion="0.31011826">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/generators/slow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="15" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state line="27" column="52" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/technologic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="17" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
+        <state line="18" column="13" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#351#376#0" expanded="true" />
           </folding>
@@ -524,8 +497,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/synthesize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="31" selection-start="5850" selection-end="5850" vertical-scroll-proportion="3.3914728">
-          <folding />
+        <state line="35" column="83" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.44573644">
+          <folding>
+            <element signature="e#580#595#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

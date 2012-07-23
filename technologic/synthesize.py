@@ -9,17 +9,22 @@
 # 'r' is a rest.
 
 # Note value is a number:
-# 1=Whole Note; 2=Half Note; 4=Quarter Note, etc.
+# 1 = Whole Note; 2 = Half Note; 4 = Quarter Note, etc.
 # Dotted notes can be written in two ways:
 # 1.33 = -2 = dotted half
 # 2.66 = -4 = dotted quarter
 # 5.33 = -8 = dotted eighth
 """
 import datetime
+from random import randint
+import os
+from hurry.filesize import size
 
-def synthesizer(genre, data):
+def synthesizer(genre, data, spacer):
 
+    entry_time = str(datetime.datetime.now().strftime(r"%H-%M-%S_%m-%d-%Y"))
     techno_song = []
+    counter = 0
 
     ##########################################################################
     # Compute and print piano key frequency table
@@ -28,18 +33,23 @@ def synthesizer(genre, data):
     keys_s = ('a', 'a#', 'b', 'c', 'c#', 'd', 'd#', 'e', 'f', 'f#', 'g', 'g#')
     keys_f = ('a', 'bb', 'b', 'c', 'db', 'd', 'eb', 'e', 'f', 'gb', 'g', 'ab')
 
-    print "\nKey number\tScientific name\tFrequency (Hz)"
+    print "  Duration (Minutes)        Key Number                Scientific Name       Frequency (Hz)"
+    print spacer
 
     for beat in data:
-        k = beat['beat']
+        k = 88 if beat['beat'] > 88 else beat['beat']
+        note_length = pow(beat['duration'], -1)
         freq = 27.5 * 2.**(k/12.)
         oct = (k+9) // 12
-        note = '%s%u' % (keys_s[k%12], oct)
-        print "%10u\t%15s\t%14.2f" % (k+1, note.upper(), freq)
+        sharp = randint(1, 10)
+        sharp = "*" if sharp == 1 else ""
+        note = '%s%s%u' % (keys_s[k%12], sharp, oct)
+        print "\t%.2f\t\t%10u\t\t%15s\t\t%14.2f" % (beat['duration'], k+1, note.upper(), freq)
         pitchhz[note] = freq
         note = '%s%u' % (keys_f[k%12], oct)
         pitchhz[note] = freq
-        techno_song.append((note, oct))
+        techno_song.append((note, note_length))
+        counter = counter + 1
 
     ##########################################################################
     #### Main program starts below
@@ -72,7 +82,7 @@ def synthesizer(genre, data):
 
     import wave, math, struct
 
-    def make_wav(song,bpm=120,transpose=0,pause=.05,boost=1.1,repeat=0,fn="out.wav"):
+    def make_wav(song,bpm=120,transpose=0,pause=0.00,boost=5.1,fn='products/%s_%s.wav' % (genre, entry_time)):
         f=wave.open(fn,'w')
 
         f.setnchannels(1)
@@ -132,49 +142,58 @@ def synthesizer(genre, data):
         # Write to output file (in WAV format)
         ##########################################################################
 
-        print "Writing to file", fn
         curpos = 0
         ex_pos = 0.
-        for rp in range(repeat+1):
-            for nn, x in enumerate(song):
-                if not nn % 4:
-                    print "[%u/%u]\t" % (nn+1,len(song))
-                if x[0]!='r':
-                    if x[0][-1] == '*':
-                        vol = boost
-                        note = x[0][:-1]
-                    else:
-                        vol = 1.
-                        note = x[0]
 
-                    try:
-                        a=pitchhz[note]
-                    except:
-                        a=pitchhz[note + '4']	# default to fourth octave
-                    a = a * 2**transpose
-                    if x[1] < 0:
-                        b=length(-2.*x[1]/3.)
-                    else:
-                        b=length(x[1])
-                    ex_pos = ex_pos + b
-                    curpos = curpos + render2(a,b,vol)
+        for nn, x in enumerate(song):
+            if not nn % 10:
+                print "Writing Beat: %u out of %u" % (nn+1,len(song))
+            if x[0]!='r':
+                if x[0][-1] == '*':
+                    vol = boost
+                    note = x[0][:-1]
+                else:
+                    vol = 1.
+                    note = x[0]
 
-                if x[0]=='r':
+                try:
+                    a=pitchhz[note]
+                except:
+                    a=pitchhz[note + '4']	# default to fourth octave
+                a = a * 2**transpose
+                if x[1] < 0:
+                    b=length(-2.*x[1]/3.)
+                else:
                     b=length(x[1])
-                    ex_pos = ex_pos + b
-                    f.writeframesraw(sixteenbit(0)*int(b))
-                    curpos = curpos + int(b)
+                ex_pos = ex_pos + b
+                curpos = curpos + render2(a,b,vol)
 
+            if x[0]=='r':
+                b=length(x[1])
+                ex_pos = ex_pos + b
+                f.writeframesraw(sixteenbit(0)*int(b))
+                curpos = curpos + int(b)
+
+        duration = f.getnframes()/f.getframerate()
         f.writeframes('')
         f.close()
+
+        print "\n%s\n" % spacer
+        print "File Name:   %s_%s" % (genre, entry_time)
+        print "Extension:   .wav"
+        print "Duration:    %i seconds" % duration
+        print "File Size:   %s" % size(os.path.getsize(fn))
+        print "In Folder:   products"
+        print "Location:    %s" % fn
+        print "\n%s\n" % spacer
+
+    print "\n%s" % spacer
 
     ##########################################################################
     # Synthesize demo songs
     ##########################################################################
 
-    print
-    print "Creating Techno Song... (this might take about a minute)"
-    print
+    print "\nCompiling Techno Song... (this might take a minute)\n"
+    print "%s\n" % spacer
 
-    entry_time = str(datetime.datetime.now().strftime(r"%H-%M-%S_%m-%d-%Y"))
-    make_wav(techno_song, pause = 0., fn = 'products/%s_%s.wav' % (genre, entry_time))
+    make_wav(techno_song)

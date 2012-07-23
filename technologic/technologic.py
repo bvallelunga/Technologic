@@ -8,17 +8,21 @@ There are two sets of equations:
 
 from genres import genres
 from synthesize import synthesizer
-import os
 
-os.system('clear')
 
 def logic(genre = "fast", duration = 90):
 
-    print "Creating song characteristics\n"
+    spacer = "------------------------------------------------------------------------------------------------"
+
+    print "\n%s" % spacer
+
+    print "\nGenerating Song Characteristics\n"
+
+    print spacer
 
     data = genres(genre, float(duration))
 
-    synthesize = synthesizer(genre, data)
+    synthesize = synthesizer(genre, data, spacer)
 
     return synthesize
 
