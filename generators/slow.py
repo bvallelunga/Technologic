@@ -24,9 +24,12 @@ def slow(duration):
             time = time + .5
 
 
-        if 8 <= time:
+        if 8 <= time < 10:
             data.append({'time': time, 'duration': 1, 'beat' : int(pow(time, 1.2))})
             time = time + 1
 
+if 8 10= time:
+            data.append({'time': time, 'duration': .3, 'beat' : int(pow(time, 1.5))})
+            time = time + 1
 
     return data
