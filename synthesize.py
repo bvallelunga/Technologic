@@ -1,4 +1,5 @@
 """
+# made in laborate (http://laborate.io) (http://laborate.io)
 # 'song' is a Python list (or tuple) in which the song is defined,
 #   the format is [['note', value]]
 
