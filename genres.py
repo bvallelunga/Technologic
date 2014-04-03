@@ -7,12 +7,13 @@ def genres(genre, duration):
     from generators.extreme import extreme
     from generators.drop_bass import drop_bass
 
-    types = {"slow" : slow,
-             "soft" : soft,
-             "fast" : fast,
-             "hardcore" : hardcore,
-             "extreme" : extreme,
-             "drop bass" : drop_bass
+    types = {
+        "slow" : slow,
+        "soft" : soft,
+        "fast" : fast,
+        "hardcore" : hardcore,
+        "extreme" : extreme,
+        "drop bass" : drop_bass
     }
 
     return types[genre](duration)
